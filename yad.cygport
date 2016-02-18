@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/yad-dialog/yad-${VERSION}.tar.xz"
 PATCH_URI="0.33.1-webkit-dep.patch"
 
 CYGCONF_ARGS="
-	--with-gtk=gtk2
+	--with-gtk=gtk3
 	--enable-icon-browser
 	--with-rgb=/usr/share/X11/rgb.txt
 "
